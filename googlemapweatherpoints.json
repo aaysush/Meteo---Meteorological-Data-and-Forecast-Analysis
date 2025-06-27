@@ -1,0 +1,1382 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -68.6425831,
+            -2.4148706,
+            0
+          ]
+        },
+        "properties": {
+          "name": "a1",
+          "styleUrl": "#icon-1899-1A237E-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#1a237e",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -53.3292189,
+            -7.8121269,
+            0
+          ]
+        },
+        "properties": {
+          "name": "a2",
+          "styleUrl": "#icon-1899-1A237E-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#1a237e",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -47.8800002,
+            -15.8904474,
+            0
+          ]
+        },
+        "properties": {
+          "name": "a3",
+          "styleUrl": "#icon-1899-1A237E-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#1a237e",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            23.4667919,
+            1.0120959,
+            0
+          ]
+        },
+        "properties": {
+          "name": "a4",
+          "styleUrl": "#icon-1899-1A237E-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#1a237e",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.3896534,
+            8.3016066,
+            0
+          ]
+        },
+        "properties": {
+          "name": "a5",
+          "styleUrl": "#icon-1899-1A237E-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#1a237e",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            20.39062,
+            -7.4046531,
+            0
+          ]
+        },
+        "properties": {
+          "name": "a6",
+          "styleUrl": "#icon-1899-1A237E-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#1a237e",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            30.23437,
+            7.4074423,
+            0
+          ]
+        },
+        "properties": {
+          "name": "a7",
+          "styleUrl": "#icon-1899-1A237E-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#1a237e",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            107.515378,
+            0.5954315,
+            0
+          ]
+        },
+        "properties": {
+          "name": "a8",
+          "styleUrl": "#icon-1899-1A237E-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#1a237e",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.5388155,
+            -3.2699687,
+            0
+          ]
+        },
+        "properties": {
+          "name": "a9",
+          "styleUrl": "#icon-1899-1A237E-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#1a237e",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.3464473,
+            18.1757713,
+            0
+          ]
+        },
+        "properties": {
+          "name": "a11",
+          "styleUrl": "#icon-1899-1A237E-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#1a237e",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.6083076,
+            24.9031926,
+            0
+          ]
+        },
+        "properties": {
+          "name": "b1",
+          "styleUrl": "#icon-1899-E65100-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#e65100",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.5856905,
+            29.1348747,
+            0
+          ]
+        },
+        "properties": {
+          "name": "b2",
+          "styleUrl": "#icon-1899-E65100-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#e65100",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            64.6805732,
+            31.1816147,
+            0
+          ]
+        },
+        "properties": {
+          "name": "b3",
+          "styleUrl": "#icon-1899-E65100-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#e65100",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            23.4598701,
+            24.4239585,
+            0
+          ]
+        },
+        "properties": {
+          "name": "b4",
+          "styleUrl": "#icon-1899-E65100-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#e65100",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            130.2859931,
+            -25.5833586,
+            0
+          ]
+        },
+        "properties": {
+          "name": "b5",
+          "styleUrl": "#icon-1899-E65100-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#e65100",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.2374444,
+            36.7982839,
+            0
+          ]
+        },
+        "properties": {
+          "name": "b6",
+          "styleUrl": "#icon-1899-E65100-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#e65100",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.2827507,
+            -24.940737,
+            0
+          ]
+        },
+        "properties": {
+          "name": "b7",
+          "styleUrl": "#icon-1899-E65100-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#e65100",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            89.8418236,
+            44.2699775,
+            0
+          ]
+        },
+        "properties": {
+          "name": "b8",
+          "styleUrl": "#icon-1899-E65100-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#e65100",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            71.5605736,
+            50.8971369,
+            0
+          ]
+        },
+        "properties": {
+          "name": "b9",
+          "styleUrl": "#icon-1899-E65100-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#e65100",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -68.1751874,
+            -39.7280926,
+            0
+          ]
+        },
+        "properties": {
+          "name": "b10",
+          "styleUrl": "#icon-1899-E65100-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#e65100",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.8468194,
+            34.5133413,
+            0
+          ]
+        },
+        "properties": {
+          "name": "c1",
+          "styleUrl": "#icon-1899-FFEA00-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#ffea00",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -56.4125618,
+            -25.893323,
+            0
+          ]
+        },
+        "properties": {
+          "name": "c2",
+          "styleUrl": "#icon-1899-FFEA00-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#ffea00",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.1421257,
+            50.4473632,
+            0
+          ]
+        },
+        "properties": {
+          "name": "c3",
+          "styleUrl": "#icon-1899-FFEA00-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#ffea00",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3374382,
+            -16.7356377,
+            0
+          ]
+        },
+        "properties": {
+          "name": "c4",
+          "styleUrl": "#icon-1899-FFEA00-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#ffea00",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.8656868,
+            41.4307864,
+            0
+          ]
+        },
+        "properties": {
+          "name": "c5",
+          "styleUrl": "#icon-1899-FFEA00-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#ffea00",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.4511986,
+            32.1676993,
+            0
+          ]
+        },
+        "properties": {
+          "name": "c6",
+          "styleUrl": "#icon-1899-FFEA00-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#ffea00",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            171.7703681,
+            -41.8437926,
+            0
+          ]
+        },
+        "properties": {
+          "name": "c7",
+          "styleUrl": "#icon-1899-FFEA00-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#ffea00",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            81.2430244,
+            27.1290486,
+            0
+          ]
+        },
+        "properties": {
+          "name": "c8",
+          "styleUrl": "#icon-1899-FFEA00-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#ffea00",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.6710381,
+            53.2175426,
+            0
+          ]
+        },
+        "properties": {
+          "name": "c9",
+          "styleUrl": "#icon-1899-FFEA00-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#ffea00",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -155.62221,
+            70.2548109,
+            0
+          ]
+        },
+        "properties": {
+          "name": "du1",
+          "styleUrl": "#icon-1899-9C27B0-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#9c27b0",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.2588087,
+            65.5960124,
+            0
+          ]
+        },
+        "properties": {
+          "name": "du2",
+          "styleUrl": "#icon-1899-9C27B0-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#9c27b0",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -136.0322462,
+            61.366551,
+            0
+          ]
+        },
+        "properties": {
+          "name": "du3",
+          "styleUrl": "#icon-1899-9C27B0-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#9c27b0",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.4911913,
+            69.2338292,
+            0
+          ]
+        },
+        "properties": {
+          "name": "du4",
+          "styleUrl": "#icon-1899-9C27B0-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#9c27b0",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            176.1552538,
+            67.2816634,
+            0
+          ]
+        },
+        "properties": {
+          "name": "du5",
+          "styleUrl": "#icon-1899-9C27B0-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#9c27b0",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -130.0556837,
+            67.0085739,
+            0
+          ]
+        },
+        "properties": {
+          "name": "d1",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#0288d1",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.2041212,
+            57.4347028,
+            0
+          ]
+        },
+        "properties": {
+          "name": "d2",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#0288d1",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -68.8838087,
+            54.8909335,
+            0
+          ]
+        },
+        "properties": {
+          "name": "d3",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#0288d1",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -98.7666212,
+            49.2840537,
+            0
+          ]
+        },
+        "properties": {
+          "name": "d4",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#0288d1",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            29.9052538,
+            50.1928458,
+            0
+          ]
+        },
+        "properties": {
+          "name": "d5",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#0288d1",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.3896288,
+            67.1455046,
+            0
+          ]
+        },
+        "properties": {
+          "name": "d6",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#0288d1",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.3271288,
+            58.1838353,
+            0
+          ]
+        },
+        "properties": {
+          "name": "d7",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#0288d1",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            102.6786913,
+            67.6855431,
+            0
+          ]
+        },
+        "properties": {
+          "name": "d8",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#0288d1",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            119.2021288,
+            56.2815892,
+            0
+          ]
+        },
+        "properties": {
+          "name": "d9",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#0288d1",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            139.2411913,
+            36.7588405,
+            0
+          ]
+        },
+        "properties": {
+          "name": "d10",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#0288d1",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -37.9463087,
+            76.4815958,
+            0
+          ]
+        },
+        "properties": {
+          "name": "e2",
+          "styleUrl": "#icon-1899-757575-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#757575",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -95.6025587,
+            73.0810931,
+            0
+          ]
+        },
+        "properties": {
+          "name": "e1",
+          "styleUrl": "#icon-1899-757575-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#757575",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            61.4517628,
+            77.820275,
+            0
+          ]
+        },
+        "properties": {
+          "name": "e3",
+          "styleUrl": "#icon-1899-757575-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#757575",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            124.0298878,
+            -79.1905447,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Point 4",
+          "styleUrl": "#icon-1899-757575-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#757575",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.5326122,
+            -80.3151588,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Point 5",
+          "styleUrl": "#icon-1899-757575-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#757575",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -132.0215384,
+            -80.8062611,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Point 6",
+          "styleUrl": "#icon-1899-757575-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#757575",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -17.712527,
+            65.4313989,
+            0
+          ]
+        },
+        "properties": {
+          "name": "e7",
+          "styleUrl": "#icon-1899-757575-nodesc",
+          "icon-opacity": 1,
+          "icon-color": "#757575",
+          "icon-scale": 1,
+          "icon-offset": [
+            32,
+            64
+          ],
+          "icon-offset-units": [
+            "pixels",
+            "insetPixels"
+          ],
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+        }
+      }
+    ]
+  }
