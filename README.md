@@ -1,6 +1,9 @@
 # Meteorological Data Forecasting and Insights
 [https://meteo-front.onrender.com/](https://meteo-front.onrender.com/)
 
+<img width="718" height="475" alt="{1886C309-D2BE-476A-90DE-0E6F53540E56}" src="https://github.com/user-attachments/assets/c667bbe3-3cf5-4f8c-8271-6b496448e896" />
+
+
 
 
 **NOTE** : when entering Co-ordinates enter only int part
