@@ -2,7 +2,6 @@
 https://meteo-front.onrender.com/
 
 **NOTE** : when entering Co-ordinates enter only int part
-
 eg. 18.9582, 72.8321   
 **NOT** the symbols ,letter or directional indicators eg. 18.9582°N, 72.8321°E
 
