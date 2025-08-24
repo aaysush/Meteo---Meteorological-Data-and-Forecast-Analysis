@@ -242,17 +242,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or support, please open an issue in the repository or contact the development team.
 
-## 🔮 Future Enhancements
-
-- [ ] Extended prediction horizon (24-48 hours)
-- [ ] Additional weather parameters (snow, fog, storms)
-- [ ] Historical data storage and trend analysis
-- [ ] Mobile application development
-- [ ] Integration with more weather data sources
-- [ ] Real-time alert system for severe weather
-- [ ] Agricultural-specific recommendations
-- [ ] Weather-based activity suggestions
 
 ---
 
-**Built with ❤️ for accurate weather forecasting and meteorological insights**
+**Built by Aayush Pandey**
