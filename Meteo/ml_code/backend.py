@@ -156,9 +156,10 @@ def encode_weather_conditions(df):
     return df
 
 def main(latitude,longitude):
-    lat, lon = latitude,longitude  # Example coordinates (Mumbai)
+    lat, lon = latitude,longitude  # Example coordinates (Mumbai) i.e we did testing with coordinates of Mumbai and Delhi
+ 
     
-    # Fetch the data
+    # Fetch the data from the user 
     weather_data = fetch_weather_data(lat, lon)
        
     # Add features and transformations
@@ -258,6 +259,7 @@ def prepare_features_and_targets(df, correlated_features, target_cols_temperatur
 
 def iterative_fill(df, target_cols_temperature, feature_cols):
     """
+    for my own note :
     df: pandas DataFrame containing original features and shifted target columns.
     target_cols: list of target columns to predict in order, e.g. ['temp_1h', 'temp_2h', ..., 'temp_5h']
     feature_cols: list of feature columns to use for training and prediction.
@@ -284,7 +286,7 @@ def iterative_fill(df, target_cols_temperature, feature_cols):
         # Features for training: all features + previously predicted target columns (up to current)
         current_features = feature_cols + target_cols_temperature[:i]
 
-        # Drop rows with NaNs in features or target from training set
+        
         train_df = train_df.dropna(subset=current_features + [target_col])
 
         if train_df.empty:
@@ -293,8 +295,7 @@ def iterative_fill(df, target_cols_temperature, feature_cols):
 
         X_train = train_df[current_features]
         y_train = train_df[target_col]
-
-        # For prediction rows, features must also be available (drop rows with NaN in features)
+ 
         predict_df = predict_df.dropna(subset=current_features)
 
         if predict_df.empty:
@@ -303,11 +304,11 @@ def iterative_fill(df, target_cols_temperature, feature_cols):
 
         X_predict = predict_df[current_features]
 
-        # Train the model
+        #her we Train the model
         model = RandomForestRegressor(n_estimators=100, random_state=42)
         model.fit(X_train, y_train)
 
-        # Predict missing values
+       
         y_pred = model.predict(X_predict)
 
         # Fill predicted values back into the DataFrame
@@ -322,7 +323,7 @@ def main_temperature_analysis(df):
     """
     Main function to run all steps for temperature analysis.
 
-    Args:
+    Arguments given here are :
         df: Input DataFrame.
         feature_cols: List of features.
         target_cols: List of target columns.
@@ -330,7 +331,7 @@ def main_temperature_analysis(df):
     Returns:
         Final DataFrame with temperature predictions filled.
     """
-    #df = encode_wind_direction(df)
+    #df = encode_wind_direction(df) as the og wind directions are not suited for the model here we need numeric and cyclic 
     correlated_features = plot_temperature_correlation(df)
      
     Y,X = prepare_features_and_targets(df, correlated_features, target_cols_temperature)
@@ -354,12 +355,13 @@ target_cols_humidity = [
     "relative_humidity_2m_1h", "relative_humidity_2m_2h",
     "relative_humidity_2m_3h", "relative_humidity_2m_4h", "relative_humidity_2m_5h"
 ]
-
+# Removed because of Conflict between FastApi and this 
+# also we will be using stremlit in built charts as they are kinda more clean
 def plot_humidity_correlation(df):
     """
     Plots a correlation heatmap for features related to humidity.
 
-    Args:
+    Arguments:
         df: DataFrame containing numerical features and 'relative_humidity_2m'.
 
     Returns:
@@ -382,20 +384,20 @@ def plot_humidity_correlation(df):
     """
 
 
-    # Filter columns to exclude '1h', '2h', '3h', '4h', '5h'
+    
     filtered_columns = [col for col in df.columns if not any(col.endswith(suffix) for suffix in ['1h', '2h', '3h', '4h', '5h'])]
     
-    # Calculate correlation matrix for filtered columns
+    # Calculate and Filter correlations greater than the threshold
     correlation_matrix = df[filtered_columns].corr().fillna(0)
 
-    # Filter correlations greater than the threshold
+    
     threshold = 0.25
     correlated_features = correlation_matrix[
         abs(correlation_matrix['relative_humidity_2m']) > threshold
     ]['relative_humidity_2m'].index.tolist()
  
 
-    # Display and return correlated features
+    
     print(f'\nCORRELATED FRATURES ARE {correlated_features}\n')
     print('RUNNN plot_humidity_correlation')
 
@@ -508,17 +510,15 @@ def analyze_chance_of_rain_correlation(df):
         if not any(col.endswith(suffix) for suffix in exclude_suffixes) and col != target_column
     ]
 
-    # Calculate correlation matrix for filtered columns
+    # Calculate correlation matrix for filtered columns and get the ones with high coorelation 
     correlation_matrix = df[filtered_columns + [target_column]].corr().fillna(0)
 
 
-    # Identify features with high correlation
     correlated_features = correlation_matrix[
         abs(correlation_matrix[target_column]) > threshold
     ][target_column].index.tolist()
  
     
-    # Display correlated features
     print(f'\nCORRELATED FEATURES ARE {correlated_features}\n')
     print('RUNNN analyze_chance_of_rain_correlation')
 
@@ -619,8 +619,8 @@ def super_call(latitude, longitude):
     df = main(latitude, longitude)
     
     # Step 1: Separate non-numeric 'datetime' column
-    datetime_column = df['datetime']  # Preserve the 'datetime' column
-    df_numeric = df.drop(columns=['datetime'])  # Process only numeric columns
+    datetime_column = df['datetime']  # we will remove it for now and use it later (probably i guess)
+    df_numeric = df.drop(columns=['datetime'])  
     
     # Step 2: Perform the processing on numeric data
     df_filled_temp = main_temperature_analysis(df_numeric)
@@ -630,10 +630,12 @@ def super_call(latitude, longitude):
     # Step 3: Combine processed data with the original 'datetime' column
     df_processed = pd.concat([datetime_column, df_filled_chance], axis=1)
     
-    print(df_processed.head())  # Debugging: Print the first few rows of the processed DataFrame
+    print(df_processed.head())  
     
     return df_processed
 
+
+# FAST API ZONE ---------starts
 
 
 # Define the schema for the request body
@@ -648,12 +650,13 @@ async def process_data(data: Coordinates):
     df_final = await asyncio.to_thread(super_call, data.latitude, data.longitude)
     print(df_final.columns)
 
-    #Convert the datetime column to string format before returning
+    #Convert the datetime column to string format before returning as this is causing us mannnnnnnnny errors 
     df_final["datetime"] = df_final["datetime"].astype(str)
 
     # Send the JSON response
     return JSONResponse(content=df_final.to_dict(orient="records"))
     
      
+
 
  
