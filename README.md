@@ -1,6 +1,8 @@
 # Meteorological Data Forecasting and Insights
 [https://meteo-front.onrender.com/](https://meteo-front.onrender.com/)
 
+
+
 **NOTE** : when entering Co-ordinates enter only int part
 eg. 18.9582, 72.8321   
 **NOT** the symbols ,letter or directional indicators eg. 18.9582°N, 72.8321°E
@@ -26,18 +28,245 @@ A comprehensive weather forecasting system that provides real-time meteorologica
 - **Iterative Prediction**: Sequential hourly forecasts with increasing accuracy
 
 ## 🏗️ Architecture
+# System Architecture Design
+## Meteorological Data Forecasting and Insights Platform
 
-### Backend (FastAPI)
-- RESTful API for weather data processing
-- Asynchronous request handling
-- Integration with WeatherAPI for historical data
-- Machine learning pipeline for predictions
+### Architecture Overview
 
-### Frontend (Streamlit)
-- Interactive web interface
-- Real-time data visualization
-- Multi-tab analysis dashboard
-- Geographic coordinate input system
+The Meteorological Data Forecasting and Insights Platform follows a modern microservices architecture pattern with clear separation of concerns between presentation, application, and data layers. The system is designed for scalability, reliability, and optimal performance across distributed cloud infrastructure.
+
+---
+
+## 🏛️ High-Level Architecture
+
+### System Components
+
+#### **Frontend Layer (Presentation Tier)**
+- **Platform**: Streamlit Web Application
+- **Deployment**: Render Cloud Platform
+- **Responsibilities**: 
+  - User interface and experience
+  - Coordinate input collection (latitude/longitude)
+  - Data visualization and analytics dashboard
+  - Real-time weather data presentation
+
+#### **Application Layer (Business Logic Tier)**
+- **Platform**: AWS EC2 Instance
+- **Web Server**: Nginx (Reverse Proxy)
+- **API Framework**: FastAPI (Containerized)
+- **Container Runtime**: Docker
+- **Responsibilities**:
+  - Request routing and load balancing
+  - Business logic processing
+  - Machine learning model execution
+  - Data transformation and analysis
+
+#### **External Services Layer**
+- **Weather Data Provider**: WeatherAPI.com
+- **Purpose**: Historical and real-time meteorological data source
+
+---
+
+## 🔄 Data Flow Architecture
+
+### Request-Response Cycle
+
+```
+User Input → Streamlit Frontend → HTTP Request → AWS EC2 → Nginx → Docker Container → FastAPI → ML Processing → WeatherAPI → Response Processing → User Display
+```
+
+### Detailed Flow Description
+
+1. **User Interaction**
+   - User accesses Streamlit web application on Render
+   - Enters geographical coordinates (latitude, longitude)
+   - Initiates weather analysis request
+
+2. **Frontend Processing**
+   - Streamlit captures user input
+   - Validates coordinate parameters
+   - Sends HTTP POST request to backend API endpoint
+
+3. **Load Balancing & Routing**
+   - Request reaches AWS EC2 instance
+   - Nginx reverse proxy receives incoming request
+   - Routes traffic to appropriate Docker container
+   - Implements load balancing and SSL termination
+
+4. **Backend Processing**
+   - Docker container hosts FastAPI application
+   - FastAPI validates request payload
+   - Initiates asynchronous processing pipeline
+
+5. **Machine Learning Pipeline**
+   - Feature engineering and data preprocessing
+   - Model inference using trained algorithms:
+     - Random Forest for temperature predictions
+     - XGBoost for rainfall probability
+   - Iterative forecasting for 5-hour predictions
+
+6. **External Data Integration**
+   - API calls to WeatherAPI.com for historical data
+   - Data aggregation and cleansing
+   - Feature extraction and transformation
+
+7. **Response Generation**
+   - Processed predictions compiled into JSON response
+   - Data validation and formatting
+   - Response sent back through the architecture stack
+
+8. **Frontend Rendering**
+   - Streamlit receives processed data
+   - Dynamic visualization generation
+   - Interactive dashboard updates
+   - User-friendly data presentation
+
+---
+
+## 🏗️ Infrastructure Architecture
+
+### Cloud Infrastructure Components
+
+#### **Frontend Infrastructure (Render)**
+- **Service Type**: Static Site Hosting
+- **Auto-scaling**: Managed by Render
+- **CDN**: Built-in content delivery
+- **SSL/TLS**: Automated certificate management
+
+#### **Backend Infrastructure (AWS EC2)**
+- **Instance Type**: Optimized for ML workloads
+- **Operating System**: Linux-based distribution
+- **Security Groups**: Configured firewall rules
+- **Elastic IP**: Static IP address assignment
+
+#### **Container Architecture**
+```dockerfile
+# Simplified Docker Architecture
+FROM python:3.9-slim
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . /app
+WORKDIR /app
+EXPOSE 8000
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+```
+
+#### **Nginx Configuration**
+- **Port Binding**: Listens on port 80/443
+- **Proxy Pass**: Forwards to Docker container port 8000
+- **Load Balancing**: Round-robin distribution
+- **Caching**: Static content caching
+- **Compression**: Gzip compression enabled
+
+---
+
+## 🔧 Technical Stack
+
+### Frontend Stack
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| Framework | Streamlit | Interactive web applications |
+| Deployment | Render | Cloud hosting platform |
+| Language | Python | Application development |
+| Libraries | pandas, numpy, seaborn | Data manipulation and visualization |
+
+### Backend Stack
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| API Framework | FastAPI | RESTful API development |
+| Web Server | Nginx | Reverse proxy and load balancer |
+| Containerization | Docker | Application packaging |
+| Cloud Platform | AWS EC2 | Scalable compute infrastructure |
+| ML Libraries | scikit-learn, XGBoost | Machine learning algorithms |
+
+### External Dependencies
+| Service | Provider | Purpose |
+|---------|----------|---------|
+| Weather Data API | WeatherAPI.com | Historical meteorological data |
+| DNS Management | Cloud Provider | Domain name resolution |
+| SSL Certificates | Let's Encrypt/Cloud Provider | Secure communications |
+
+---
+
+## 🛡️ Security Architecture
+
+### Security Measures
+
+#### **Network Security**
+- **AWS Security Groups**: Firewall rules restricting inbound/outbound traffic
+
+#### **Application Security**
+- **Input Validation**: Coordinate parameter validation and sanitization
+- **CORS Configuration**: Cross-origin resource sharing controls
+- **Error Handling**: Secure error messages without sensitive data exposure(every key is in proper environment variable)
+
+#### **Infrastructure Security**
+- **Container Isolation**: Docker container security boundaries
+- **Access Control**: SSH key-based authentication for EC2 access
+
+---
+
+## 📈 Scalability Design
+
+### Horizontal Scaling Capabilities
+
+#### **Frontend Scaling**
+- **Render Auto-scaling**: Automatic traffic-based scaling
+- **CDN Distribution**: Global content delivery network
+- **Caching Strategy**: Browser and CDN caching optimization
+
+#### **Backend Scaling**
+- **Docker Swarm/Kubernetes**: Container orchestration ready
+- **AWS Auto Scaling Groups**: EC2 instance auto-scaling
+- **Load Balancer Integration**: Application Load Balancer support(future aspect)
+
+#### **Database Scaling** (Future Enhancement)
+- **Read Replicas**: Distributed read operations
+
+---
+
+
+---
+
+## 🚀 Deployment Strategy
+
+
+#### **Frontend Deployment**
+1. Code commit to repository
+2. Render automatic build trigger
+3. Dependency installation
+4. Application deployment
+5. Health check validation
+
+#### **Backend Deployment**
+1. Docker image building
+2. Container registry push
+3. EC2 deployment automation
+4. Nginx configuration update
+5. Service restart and validation
+
+### Environment Management
+- **Development**: Local Docker environment
+- **Staging**: Separate AWS environment
+- **Production**: Full production infrastructure
+
+---
+
+## 📊 Architecture Benefits
+
+### Performance Advantages
+- **Asynchronous Processing**: Non-blocking request handling
+- **Containerization**: Consistent deployment environments
+- **Load Balancing**: Distributed traffic management
+- **Caching**: Reduced API call overhead
+
+### Reliability Features
+- **Fault Isolation**: Container-based error containment
+- **Auto-recovery**: Automatic service restart capabilities
+
+---
+
+This architecture design ensures a robust, scalable, and maintainable weather forecasting platform capable of handling growing user demands while maintaining high performance and reliability standards.
 
 ## 📊 Technical Stack
 
